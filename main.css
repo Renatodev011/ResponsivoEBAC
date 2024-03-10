@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+header {
+    background-color: rgba(18, 105, 187, 0.842);
+    padding: 20px, 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-block: 16px;
+}
+.Logo {
+    color: #fff;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.link-itens li{
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.link-itens a {
+    text-decoration: none;
+    color:#fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.Sobre {
+    display: flex;
+    align-items: center;
+    background-image:url(./img/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.Sobre img {
+    height: 300px;
+    padding: 16px;
+}
+
+.Sobre p, h2 {
+    font-size: 15px;
+    margin-left: 15px;
+    padding-block: 16px;
+    margin-right: 15px;
+    color: #000000;
+}
+.lista-mangas{  
+    display: flex;
+    justify-content: space-between;
+}
+.Mangas img {
+    height: 250px;
+    margin-left: 25px;
+}
+.lista-mangas li {
+    list-style: none;
+    max-width: 30%;
+}
+.lista-mangas li, img{
+    max-width: 100%;
+}
+.lista-mangas li, h3 {
+    margin: 16px 0;
+    padding: 16px;
+}
+.lista-mangas button{
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: rgba(18, 105, 187, 0.842);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1366px) {
+   body {
+        float: left;
+        
+    }
+    
+}
+@media screen and (orientation: portrait) and (max-width: 640px) {
+    body {
+        background-color: rgb(157, 232, 245);
+        
+    }
+}
